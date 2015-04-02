@@ -10,6 +10,8 @@ The final goal is to split services into different containers and configure them
 
 We're not quite there yet.
 
+It's currently running on Ubuntu 14.04
+
 ## Build
 
     sudo docker build -t="sjourdan/airtime" .
@@ -17,6 +19,14 @@ We're not quite there yet.
 ## Run
 
     sudo docker run -d -p 443:443 --name airtime sjourdan/airtime
+
+or directly from the Docker Hub
+
+    sudo docker run -d -p 443:443 --name airtime sjourdan/docker-airtime
+
+## Stop
+
+    sudo docker stop airtime
 
 ## Access
 
