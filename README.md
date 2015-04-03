@@ -14,19 +14,37 @@ It's currently running on Ubuntu 14.04
 
 ## Build
 
+```shell
     sudo docker build -t="sjourdan/airtime" .
+```
+
+## Docker Automated Build
+
+When pushed to GitHub, the [Docker Hub](https://hub.docker.com) builds it automatically: [Airtime Docker Automated Build](https://registry.hub.docker.com/u/sjourdan/airtime-docker/)
+
+The docker repository is then available by issuing:
+
+```shell
+    docker pull sjourdan/airtime-docker
+```
 
 ## Run
 
+```shell
     sudo docker run -d -p 443:443 --name airtime sjourdan/airtime
+```
 
 or directly from the Docker Hub
 
+```shell
     sudo docker run -d -p 443:443 --name airtime sjourdan/docker-airtime
+```
 
 ## Stop
 
+```shell
     sudo docker stop airtime
+```
 
 ## Access
 
