@@ -1,6 +1,6 @@
 # Airtime Docker
 
-This is an early attempt at a fully working [Airtime](https://www.sourcefabric.org/en/airtime/) [Docker](https://www.docker.com/) container.
+This is a very early and unfinished attempt at a fully working [Airtime](https://www.sourcefabric.org/en/airtime/) [Docker](https://www.docker.com/) container.
 
 The final goal is to split services into different containers and configure them with [Consul](https://consul.io/):
 
